@@ -1,6 +1,10 @@
 #ifndef LIBFT_H_
 # define LIBFT_H_
 
+#include <stddef.h>
+#include <stdlib.h>
+#include <stdio.h>
+
 unsigned int my_strlen(const char *str);
 int ft_abs (int val );
 int ft_isalpha(int character);
